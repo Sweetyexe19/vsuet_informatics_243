@@ -3,8 +3,8 @@ a = int(input())
 b = int(input())
 
 if a < b:
-    for i in range(a, b + 1):
-        print(i, end=' ')
+    for otvet in range(a, b + 1):
+        print(otvet, end=' ')
 else:
-    for i in range(a, b - 1, -1):
-        print(i, end=' ')
+    for otvet in range(a, b - 1, -1):
+        print(otvet, end=' ')
