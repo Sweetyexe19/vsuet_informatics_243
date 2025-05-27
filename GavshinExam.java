@@ -57,7 +57,7 @@ public class Main {
 
     //Тест
     public static void main(String[] args) {
-        MyCoolHashTable myTable = new MyCoolHashTable(10);
+        HashTable myTable = new HashTable(10);
 
         myTable.put("apple", "яблоко");
         myTable.put("banana", "банан");
